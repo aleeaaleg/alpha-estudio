@@ -5,9 +5,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
 
-    div{
+    div ul{
         list-style-type:none;
         display: inline-block;
     }

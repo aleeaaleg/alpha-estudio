@@ -17,13 +17,14 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start; }
-  footer div {
+  align-items: flex-end; }
+  footer div ul {
     list-style-type: none;
     display: inline-block; }
 
 .header-home {
   padding: 8px;
+  background-color: #c2afaf;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
@@ -33,3 +34,23 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-content: center; }
+
+.main-div-project {
+  background-color: #c2afaf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/* estilos main contacto */
+.div-contacto {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left; }
+
+main form div {
+  display: flex;
+  flex-direction: column; }
+
+main div img {
+  padding: 16px; }
