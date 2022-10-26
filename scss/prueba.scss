@@ -1,17 +1,6 @@
-div {
-    background-color: red;
+@import"variables";
+@import"nav";
+@import"footer";
+@import"header";
 
-    h1{
-        font-size: 16px;
-        font-weight: 500px;
-        text-align: center;
-    }
-}
 
-div{
-    h2{
-        background-color: aqua;
-
-        font: 100;
-    }
-}

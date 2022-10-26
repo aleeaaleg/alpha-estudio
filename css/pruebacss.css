@@ -1,10 +1,35 @@
-div {
-  background-color: red; }
-  div h1 {
-    font-size: 16px;
-    font-weight: 500px;
-    text-align: center; }
+nav {
+  padding: 16px;
+  background-color: #c2afaf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  nav ul {
+    list-style-type: none; }
+  nav li {
+    display: inline-block;
+    padding: 8px; }
 
-div h2 {
-  background-color: aqua;
-  font: 100; }
+footer {
+  padding: 16px;
+  background-color: #c2afaf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
+  footer div {
+    list-style-type: none;
+    display: inline-block; }
+
+.header-home {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.header-div-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }

@@ -1,0 +1,14 @@
+footer {
+    padding: 16px;
+    background-color:$color-fondo;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    div{
+        list-style-type:none;
+        display: inline-block;
+    }
+}
