@@ -17,10 +17,17 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end; }
+  align-items: center; }
   footer div ul {
     list-style-type: none;
-    display: inline-block; }
+    display: inline-block;
+    align-items: center; }
+  footer a {
+    width: 16px;
+    height: 16px; }
+  footer .logo-footer {
+    width: 16px;
+    height: 16px; }
 
 .header-home {
   padding: 8px;
@@ -54,3 +61,6 @@ main form div {
 
 main div img {
   padding: 16px; }
+
+main div .proyectos {
+  display: grid; }
