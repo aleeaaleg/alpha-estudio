@@ -1,25 +1,27 @@
-footer {
+footer{
+    border: 16px;
     padding: 16px;
-    background-color:$color-fondo;
+    background-color: $color-fondo;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 
-    div ul{
-        list-style-type:none;
-        display: inline-block;
-        align-items: center;
-    }
-    a{
-    width: 16px;
-    height: 16px;
+    img{
+        width: 100px;
+        left: 100px;
     }
 
-    .logo-footer{
-        width: 16px;
-    height: 16px
+    div{
+        
+        align-content: flex-start;
+
+        ul{
+            list-style-type: none;
+            display: inline-block;
+        
+        }
     }
-    
+
+
 }
