@@ -8457,3 +8457,40 @@ footer {
   .main-about div img {
     width: 400px;
     left: 600px; }
+
+.header-proyectos main {
+  background-color: #8fbfb1;
+  width: 800px;
+  left: 800px; }
+
+.main-contacto {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-content: center; }
+  .main-contacto form {
+    border: 2px solid black;
+    background-color: #8fbfb1;
+    width: 300px;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center; }
+    .main-contacto form div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+
+.main-proyectos {
+  padding: 16px; }
+  .main-proyectos h2, .main-proyectos .h2 {
+    font-size: 30px;
+    text-align: center; }
+  .main-proyectos div {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+    .main-proyectos div img {
+      padding: 16px;
+      border: 3px solid black; }
