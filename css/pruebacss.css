@@ -8408,18 +8408,32 @@ body {
     padding: 8px;
     font-size: 24px;
     justify-content: end; }
+  .home img {
+    animation-name: ingreso-superior;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out; }
+
+@keyframes ingreso-superior {
+  0% {
+    transform: translateY(-400px); }
+  100% {
+    transform: translatey(0); } }
 
 .home-main {
   background-color: white; }
   .home-main h2, .home-main .h2 {
     border: 16px; }
   .home-main div {
-    border: solid 3px black;
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
     .home-main div .img-1 {
       width: 410px;
-      left: 500px; }
+      left: 500px;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out; }
+
+.img-1:hover {
+  transform: scale(1.2); }
 
 footer {
   border: 16px;
@@ -8437,17 +8451,36 @@ footer {
       list-style-type: none;
       display: inline-block; }
 
-.header-nosotros div {
-  border: 16px;
-  padding: 8px;
-  background-color: #8fbfb1;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+body {
+  animation-name: ingreso-superior;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
 
-.header-nosotros h1, .header-nosotros .h1 {
-  padding: 16px;
-  font-size: 48px; }
+.header-nosotros {
+  animation-name: ingreso-superior;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; }
+  .header-nosotros div {
+    border: 16px;
+    padding: 8px;
+    background-color: #8fbfb1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .header-nosotros div h1, .header-nosotros div .h1 {
+      padding: 16px;
+      font-size: 48px; }
+    .header-nosotros div h3, .header-nosotros div .h3 {
+      transition-duration: 0.5s;
+      color: black; }
+    .header-nosotros div h3:hover, .header-nosotros div .h3:hover {
+      transform: scale(1.2); }
+
+@keyframes ingreso-superior {
+  0% {
+    transform: translateY(-400px); }
+  100% {
+    transform: translatey(0); } }
 
 .main-about div {
   padding: 6px;
@@ -8467,7 +8500,9 @@ footer {
   padding: 16px;
   display: flex;
   flex-direction: row;
-  align-content: center; }
+  align-content: center;
+  align-items: center;
+  justify-content: center; }
   .main-contacto form {
     border: 2px solid black;
     background-color: #8fbfb1;
