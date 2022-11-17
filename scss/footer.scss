@@ -27,6 +27,7 @@ footer{
         footer{
             display: grid;
             grid-template-columns: 1fr;
+            justify-content: right;
             
             div{
                 align-items: center;

@@ -8460,7 +8460,8 @@ footer {
   @media screen and (max-width: 768px) {
     footer footer {
       display: grid;
-      grid-template-columns: 1fr; }
+      grid-template-columns: 1fr;
+      justify-content: right; }
       footer footer div {
         align-items: center; }
       footer footer ul {
@@ -8506,6 +8507,10 @@ body {
   .main-about div img {
     width: 400px;
     left: 600px; }
+
+@media screen and (max-width: 768px) {
+  .main-about div {
+    flex-direction: column; } }
 
 .header-proyectos main {
   background-color: #8fbfb1;
