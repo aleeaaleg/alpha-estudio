@@ -78,6 +78,21 @@ body{
     }
 }    
 
+@media screen and (max-width:768px){
+    .home{
+        flex-direction: column;
+    }
+
+    .home-main{
+
+        div{
+            grid-template-columns: 1fr;
+            align-items: center;
+        }
+    }
+
+}
+
 .img-1:hover{
 
     transform: scale(1.2);

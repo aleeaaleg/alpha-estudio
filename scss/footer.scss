@@ -23,5 +23,23 @@ footer{
         }
     }
 
+ @media screen and (max-width:768px){
+        footer{
+            display: grid;
+            grid-template-columns: 1fr;
+            
+            div{
+                align-items: center;
+            }
+
+            ul{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        
+        
+
+    }
 
 }

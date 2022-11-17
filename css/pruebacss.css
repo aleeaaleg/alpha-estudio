@@ -8432,6 +8432,13 @@ body {
       transition-duration: 1s;
       transition-timing-function: ease-in-out; }
 
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column; }
+  .home-main div {
+    grid-template-columns: 1fr;
+    align-items: center; } }
+
 .img-1:hover {
   transform: scale(1.2); }
 
@@ -8450,6 +8457,15 @@ footer {
     footer div ul {
       list-style-type: none;
       display: inline-block; }
+  @media screen and (max-width: 768px) {
+    footer footer {
+      display: grid;
+      grid-template-columns: 1fr; }
+      footer footer div {
+        align-items: center; }
+      footer footer ul {
+        display: flex;
+        flex-direction: column; } }
 
 body {
   animation-name: ingreso-superior;
